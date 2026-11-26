@@ -7,8 +7,8 @@
 
 > **Note on Team Size:** Our group has 4 members. The course assignment specifies exactly 5; we have requested/are requesting an exemption from the course lecturer and are submitting transparently with 4 active contributors.
 
-| # | Name | Registration Number | Responsibilities | Group Leader |
-|---|------|---------------------|-----------------|--------------|
+| # | Name | Registration Number | Responsibilities |
+|---|------|---------------------|-----------------|
 | 1 | **Charlton Gikaria** | `C026-01-0804/2024` | Repository Baseline, Semantic Analysis (Wk 5), OOP Support (Wk 9), Project Coordination | 
 | 2 | **Joel Kamande** | `C026-01-0742/2024` | Lexer (Wk 2), Syntax-Directed Translation (Wk 6), Code Generation (Wk 10) | |
 | 3 | **Stanley Kahuthu** | `C026-01-0759/2024` | AST & Recursive Descent Parser (Wk 3), TAC Generator (Wk 7), Error Handling & Integration (Wk 11) | |
