@@ -41,14 +41,6 @@ Algorithm Lookup(name):
        If name exists in scope:
            Return scope[name]
   2. Return None (symbol is undeclared in accessible scopes)
-```
 
-### Likely Examiner Questions & Model Answers
-**Q1: Why use a stack of tables instead of a single global table with scope tags?**  
-*Answer:* A stack of dictionaries makes block entry and exit an O(1) push and pop operation. When a block ends, popping the innermost scope instantly invalidates all local variables declared within it, preventing memory leaks and avoiding complex cleanup sweeps.
 
-**Q2: How does your symbol table handle variable shadowing?**  
-*Answer:* Because lookup traverses the scope stack in reverse (from current innermost scope towards global scope), the first occurrence matching the identifier is returned. The outer variable remains untouched in the outer dictionary and becomes visible again as soon as the inner scope is popped.
 
-**Q3: How are arrays and stacks distinguished from primitive types in your table?**  
-*Answer:* The `SymbolInfo` record contains an `element_type` field and an optional `size` field. For primitive types like `Integer`, `element_type` is `None`. For `Array<Integer>`, `data_type` is `"Array<Integer>"` and `element_type` is `"Integer"`.
