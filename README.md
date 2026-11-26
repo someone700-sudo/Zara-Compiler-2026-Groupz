@@ -9,7 +9,7 @@
 
 | # | Name | Registration Number | Responsibilities | Group Leader |
 |---|------|---------------------|-----------------|--------------|
-| 1 | **Charlton Gikaria** | `C026-01-0804/2024` | Repository Baseline, Semantic Analysis (Wk 5), OOP Support (Wk 9), Project Coordination | ✅ |
+| 1 | **Charlton Gikaria** | `C026-01-0804/2024` | Repository Baseline, Semantic Analysis (Wk 5), OOP Support (Wk 9), Project Coordination | 
 | 2 | **Joel Kamande** | `C026-01-0742/2024` | Lexer (Wk 2), Syntax-Directed Translation (Wk 6), Code Generation (Wk 10) | |
 | 3 | **Stanley Kahuthu** | `C026-01-0759/2024` | AST & Recursive Descent Parser (Wk 3), TAC Generator (Wk 7), Error Handling & Integration (Wk 11) | |
 | 4 | **Neville Krop** | `C026-01-2417/2024` | Symbol Table (Wk 1), Bottom-Up Parser (Wk 4), Code Optimizer (Wk 8) | |
