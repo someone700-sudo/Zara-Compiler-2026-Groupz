@@ -1,0 +1,12 @@
+// Invalid Sample 2: Syntax Errors
+// Tests parser syntax error detection and panic-mode recovery at ';' and '}'
+
+Integer a = 10
+Integer b = 20; // Semicolon missing on line above; parser synchronizes here
+
+if (b > a) {
+    print(b) // Missing semicolon inside block
+}
+
+Integer c = 30; // Parser recovers and parses statement successfully
+print(c);
