@@ -1,0 +1,9 @@
+// Invalid Sample 1: Lexical Errors
+// Tests detection of illegal characters and unterminated strings with recovery
+
+Integer validA = 10;
+Integer badVar = 5 @ 3; // '@' is an illegal character in Zara
+Integer anotherBad = 4 $ 2; // '$' is an illegal character in Zara
+String unclosed = "unterminated string literal;
+Integer validB = 20;
+print(validA * validB);
